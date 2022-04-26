@@ -1,5 +1,5 @@
 arr = [list(map(int, input().split())) for i in range(4)]
-ud_arr = [[None for j in range(len(arr[0]))] for k in range(len(arr))]
+ud_arr = [[None for j in range(len(arr))] for k in range(len(arr[0]))]
 
 for i in range(len(arr[0])):
     for k in range(len(arr)-1,-1,-1):
